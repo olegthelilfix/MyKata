@@ -1,5 +1,6 @@
 package me.olegthelilfix.mykata;
 
+import me.olegthelilfix.mykata.six.SimpleFrequencySort;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

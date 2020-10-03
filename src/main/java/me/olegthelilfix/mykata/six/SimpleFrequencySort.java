@@ -1,4 +1,4 @@
-package me.olegthelilfix.mykata;
+package me.olegthelilfix.mykata.six;
 
 import java.util.ArrayList;
 import java.util.HashMap;

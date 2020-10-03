@@ -1,4 +1,4 @@
-package me.olegthelilfix.mykata
+package me.olegthelilfix.mykata.six
 
 fun find(integers: Array<Int>): Int {
     var countOfEvenNumber = 0

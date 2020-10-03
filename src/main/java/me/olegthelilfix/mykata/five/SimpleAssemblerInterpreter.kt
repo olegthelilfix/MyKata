@@ -1,4 +1,4 @@
-package me.olegthelilfix.mykata
+package me.olegthelilfix.mykata.five
 
 /**
  * We want to create a simple interpreter of assembler which will support the following instructions:

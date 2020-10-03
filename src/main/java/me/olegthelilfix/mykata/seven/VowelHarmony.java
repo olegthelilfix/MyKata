@@ -1,4 +1,4 @@
-package me.olegthelilfix.mykata;
+package me.olegthelilfix.mykata.seven;
 
 import java.util.Arrays;
 import java.util.List;

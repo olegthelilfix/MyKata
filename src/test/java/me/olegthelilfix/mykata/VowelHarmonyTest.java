@@ -1,6 +1,6 @@
 package me.olegthelilfix.mykata;
 
-import me.olegthelilfix.mykata.VowelHarmony;
+import me.olegthelilfix.mykata.seven.VowelHarmony;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

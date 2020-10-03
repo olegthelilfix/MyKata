@@ -1,5 +1,6 @@
 package me.olegthelilfix.mykata
 
+import me.olegthelilfix.mykata.six.find
 import org.junit.Assert.*
 import org.junit.Test
 

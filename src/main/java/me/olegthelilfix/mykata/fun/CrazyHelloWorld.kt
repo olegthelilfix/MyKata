@@ -1,4 +1,4 @@
-package me.olegthelilfix.mykata
+package me.olegthelilfix.mykata.`fun`
 
 fun greet(): String {
     return deepDive("hello world!".toCharArray().map { it.toString() }.toMutableList())
