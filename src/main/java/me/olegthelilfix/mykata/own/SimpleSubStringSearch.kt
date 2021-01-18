@@ -1,12 +1,12 @@
 package me.olegthelilfix.mykata.own
 
 fun findFirstSubString(string: String, subString: String): Int? {
-    val stringArray = string.toList()
-    val substringArray = subString.toList()
-
-    if (stringArray.size < substringArray.size || stringArray.isEmpty() || substringArray.isEmpty()) {
+    if (string.length < subString.length || string.isEmpty() || subString.isEmpty()) {
         return null
     }
+
+    val stringArray = string.toList()
+    val substringArray = subString.toList()
 
     var counter = 0
     var startIndex = 0
@@ -14,34 +14,27 @@ fun findFirstSubString(string: String, subString: String): Int? {
     var i = 0
 
     while (i < stringArray.size) {
-        if (stringArray[i] == substringArray[counter]) {
-            if(counter == 0) {
-                startIndex = i
-            }
+        when {
+            stringArray[i] == substringArray[counter] -> {
+                if (counter == 0) {
+                    startIndex = i
+                }
 
-            if ((counter + 1) == substringArray.size) {
-                return startIndex
-            }
-            counter++
-            i++
-        }
-        else {
-            if (counter > 0) {
-                i = startIndex + 1
-            }
-            else {
+                if ((counter + 1) == substringArray.size) {
+                    return startIndex
+                }
+                counter++
                 i++
             }
-            counter = 0
-            startIndex = 0
+            counter > 0 -> {
+                i = startIndex + 1
+                counter = 0
+            }
+            else -> {
+                i++
+            }
         }
-
-        println(i)
     }
 
     return null
-}
-
-fun main() {
-    print(findFirstSubString("54321321", "321"))
 }
