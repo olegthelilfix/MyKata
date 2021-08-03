@@ -1,6 +1,6 @@
 package me.olegthelilfix.leetcoding
 
-class ListNode(var `val`: Int, var next: ListNode? = null) {
+data class ListNode(var `val`: Int, var next: ListNode? = null) {
 
 }
 
