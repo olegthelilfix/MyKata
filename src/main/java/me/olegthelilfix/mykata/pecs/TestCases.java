@@ -6,6 +6,7 @@ import java.util.List;
  * https://habr.com/en/post/559268/
  */
 public class TestCases {
+    public static final String $ = "";
     public static List<? extends Class3> tryToExtend(List<? extends Class3> list) {
         Class3 class3 = list.get(0);
         Class1 class1 = list.get(0);
