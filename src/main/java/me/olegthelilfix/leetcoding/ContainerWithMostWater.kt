@@ -14,7 +14,6 @@ fun maxArea(height: IntArray): Int {
             }
         }
     }
-
     return max
 }
 
