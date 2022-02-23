@@ -1,4 +1,4 @@
-package me.olegthelilfix.leetcoding
+package me.olegthelilfix.leetcoding.old
 
 class ReverseInteger {
     fun reverse(x: Int): Int {

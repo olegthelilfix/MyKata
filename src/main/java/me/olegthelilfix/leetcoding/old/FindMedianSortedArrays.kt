@@ -1,4 +1,4 @@
-package me.olegthelilfix.leetcoding
+package me.olegthelilfix.leetcoding.old
 
 /**
  * Given two sorted arrays nums1 and nums2 of size m and n respectively, return the median of the two sorted arrays.
@@ -41,7 +41,8 @@ class FindMedianSortedArrays {
 }
 
 fun main() {
-    println(FindMedianSortedArrays().findMedianSortedArrays(
+    println(
+        FindMedianSortedArrays().findMedianSortedArrays(
             listOf(1, 2).toIntArray(),
             listOf(3, 4).toIntArray(),
     ))

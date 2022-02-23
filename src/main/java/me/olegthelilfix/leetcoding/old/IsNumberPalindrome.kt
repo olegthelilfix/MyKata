@@ -1,4 +1,4 @@
-package me.olegthelilfix.leetcoding
+package me.olegthelilfix.leetcoding.old
 
 fun isPalindrome(x: Int): Boolean {
     if (x < 0) {

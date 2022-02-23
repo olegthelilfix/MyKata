@@ -1,4 +1,4 @@
-package me.olegthelilfix.leetcoding
+package me.olegthelilfix.leetcoding.old
 
 class TwoSum {
     fun twoSum(nums: IntArray, target: Int): IntArray {

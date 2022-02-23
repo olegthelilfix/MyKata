@@ -1,4 +1,6 @@
-package me.olegthelilfix.leetcoding
+package me.olegthelilfix.leetcoding.old
+
+import me.olegthelilfix.leetcoding.ListNode
 
 fun isPalindrome(head: ListNode?): Boolean {
     if (head == null) {

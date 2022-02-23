@@ -1,13 +1,14 @@
-package me.olegthelilfix.leetcoding
+package me.olegthelilfix.leetcoding.old
 
-data class ListNode(var `val`: Int, var next: ListNode? = null) {}
+import me.olegthelilfix.leetcoding.ListNode
+
 
 class AddTwoNumbers {
     fun addTwoNumbers(l1: ListNode?, l2: ListNode?): ListNode? {
         return addTwoNumbers(l1, l2, 0)
     }
 
-    fun addTwoNumbers(l1: ListNode?, l2: ListNode?, inc: Int): ListNode? {
+    private fun addTwoNumbers(l1: ListNode?, l2: ListNode?, inc: Int): ListNode? {
         if(l1 == null && l2 == null) {
             if(inc > 0) {
                 return ListNode(1)

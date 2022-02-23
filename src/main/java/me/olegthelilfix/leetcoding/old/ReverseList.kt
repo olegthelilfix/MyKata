@@ -1,4 +1,7 @@
-package me.olegthelilfix.leetcoding
+package me.olegthelilfix.leetcoding.old
+
+import me.olegthelilfix.leetcoding.ListNode
+
 // Given the head of a singly linked list, reverse the list, and return the reversed list.
 fun reverseList(head: ListNode?): ListNode? {
     if (head == null) {

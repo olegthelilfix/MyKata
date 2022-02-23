@@ -1,4 +1,4 @@
-package me.olegthelilfix.leetcoding
+package me.olegthelilfix.leetcoding.old
 
 //Given a string s, return the longest palindromic substring in s.
 fun isPalindrome(s: String): Boolean {
