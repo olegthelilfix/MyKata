@@ -1,19 +1,19 @@
 package me.olegthelilfix.leetcoding.old
 
 class TwoSum {
-    fun twoSum(nums: IntArray, target: Int): IntArray {
-        if (nums.size < 2) {
-            return IntArray(0)
+    fun twoSum(numbers: IntArray, target: Int): Pair<Int,Int> {
+        if (numbers.size < 2) {
+            return Pair(0,0)
         }
-        for (i in nums.indices) {
-            for (j in i + 1 until nums.size) {
-                if ((nums[i] + nums[j]) == target) {
-                    return listOf(i, j).toIntArray()
+        for (i in numbers.indices) {
+            for (j in i + 1 until numbers.size) {
+                if ((numbers[i] + numbers[j]) == target) {
+                    return Pair(i,j)
                 }
             }
         }
 
-        return IntArray(0)
+        return Pair(0,0)
     }
 }
 
